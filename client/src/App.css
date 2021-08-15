@@ -1,0 +1,95 @@
+.Todo-App {
+  text-align: center;
+}
+
+#loading {
+  display: inline-block;
+  width: 30px;
+  height: 30px;  
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  left: calc(50%);
+  top: calc(50%);
+  position: fixed;
+  z-index: 1;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+
+#loading_title {  
+  left: calc(35%);
+  top: calc(45%);
+  position: fixed;
+}
+
+main {
+  margin-top: 60px;
+}
+
+form {
+  width: 450px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+#completedTaskList .content {
+  color: grey;
+  text-decoration: line-through;
+}
+
+html, body, #root, .Todo-App {
+  height: 100%
+}
+
+#root {
+  background-color: rgb(48, 49, 51);
+}
+
+#todo-card { 
+  background-color: rgb(152, 161, 172);
+}
+
+.complete {  
+  opacity: 0.4;
+}
+
+.taskTemplate:nth-child(4n) {
+  color: rgb(37, 33, 33);
+  background: #F59DB9;
+  
+}
+
+.taskTemplate:nth-child(4n + 1) {
+  color: rgb(0, 0, 0);
+  background: #FFFF99;
+}
+
+.taskTemplate:nth-child(4n + 2) {
+  background: #F4B416;
+}
+
+.taskTemplate:nth-child(4n + 3) {
+  background: #56C4E8;
+}
+
+#account {
+  color: #fff;
+}
+
+.card-title {
+  color: rgba(20, 19, 19, 0.719);  
+}
+
+
+
+
+
+
