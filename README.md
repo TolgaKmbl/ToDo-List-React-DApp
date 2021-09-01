@@ -3,4 +3,4 @@
 
 ## To Do 
 - Task editing feature
-- Dynamic Identicon for each account address
+- ~~Dynamic Identicon for each account address~~
